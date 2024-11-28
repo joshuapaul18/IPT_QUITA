@@ -1,0 +1,135 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #081b29;
+    color: #ededed;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 25px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: color 0.3s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: #00abf0;
+}
+
+/* Profile Section */
+.profile {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.profile-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #0a2236;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.profile-info {
+    max-width: 600px;
+    margin-right: 20px;
+}
+
+.profile-info h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.profile-info h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #00abf0;
+    margin-bottom: 20px;
+}
+
+.profile-info p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.social-media a {
+    display: inline-block;
+    margin-right: 15px;
+    color: #ededed;
+    font-size: 16px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-media a:hover {
+    color: #00abf0;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #00abf0;
+    color: #081b29;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 5px;
+    transition: background 0.3s, color 0.3s;
+}
+
+.btn:hover {
+    background: transparent;
+    color: #00abf0;
+    border: 2px solid #00abf0;
+}
+
+/* Profile Image */
+.profile-img {
+    flex-shrink: 0;
+    text-align: right;
+}
+
+.profile-img img {
+    width: 2in;
+    height: 2in;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #00abf0;
+}
