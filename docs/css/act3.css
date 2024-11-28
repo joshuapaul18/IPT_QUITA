@@ -1,0 +1,69 @@
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f8f8f8;
+        }
+
+        .container {
+            width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border: 1px solid #000;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 50px;
+            margin-bottom: 10px;
+            margin-right: 100px;
+            margin-top: 100px;
+        }
+
+        h2 {
+            background-color: #000;
+            color: white;
+            padding: 5px;
+            font-size: 1em;
+            margin-top: 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        table td, table th {
+            border: 1px solid #000;
+            padding: 5px;
+        }
+
+        .image-box {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 200px;
+            height: 200px;
+            border: 1px solid #000;
+            text-align: center;
+            line-height: 200px;
+            font-weight: bold;
+            color: #333;
+            background-color: #f0f0f0;
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        .personal-data {
+            margin-top: 80px; /* Adjusted to be placed below the photo */
+        }
+
+        .signature {
+            margin-top: 20px;
+        }
